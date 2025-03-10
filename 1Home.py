@@ -18,7 +18,7 @@ pages = st.sidebar.selectbox("Escolha a sua seção:", [
     "Análise de Dados"
 ])
 
-st.sidebar.markdown("Desenvolvido por Pedro Henrique Nardaci Chaves")
+st.sidebar.markdown("Currículo desenvolvido por Pedro Chaves")
 
 if pages == "Quem sou eu?":
     st.image("code.png", width=600)
@@ -30,7 +30,7 @@ if pages == "Quem sou eu?":
     """)
 
 elif pages == "Formação e Experiências Profissionais":
-    st.image("code.png", width=600)
+    st.image("experiences.png", width=700)
     st.header("Formação e Experiências Profissionais")
     st.write("""
     - **Formação Acadêmica:**
@@ -45,7 +45,7 @@ elif pages == "Formação e Experiências Profissionais":
     """)
 
 elif pages == "Skills":
-    st.image("code.png", width=600)
+    st.image("skills.png", width=500)
     st.header("Skills")
     st.write("""
     - **Hard Skills:**
@@ -63,9 +63,14 @@ elif pages == "Skills":
 
 elif pages == "Análise de Dados":
     st.header("Análise de Dados")
-    st.header("Problema: Queda no engajamento no canal do Youtube.")
-    st.write("Faça upload do arquivo Excel para iniciar a análise da distribuição de uma variável numérica.")
-    uploaded_file = st.file_uploader("Carregue seu arquivo Excel", type=["xlsx", "xls"])
+    st.header("**Problema: Queda no engajamento no canal do Youtube.**")
+    st.write("**Análise Inicial**: Os dados indicam que o canal pode estar enfrentando uma queda de engajamento, e para entender melhor essa situação, podemos observar algumas métricas principais.")
+    st.write("**Engajamento ao longo do tempo**: Podemos verificar se visualizações, likes e comentários diminuíram ao longo dos meses.")
+    st.write("**Fatores que influenciam o engajamento**: Podemos analisar se vídeos com maior tempo assistido ou maior taxa de cliques (CTR) recebem mais interações.")
+    st.write("**Padrões e sazonalidade**: Podemos identificar se há dias ou horários que impactam o desempenho dos vídeos.")
+    st.write("**Retenção e duração dos vídeos**: Podemos verificar se vídeos mais curtos ou longos tendem a ter melhor desempenho.")
+    st.write("**Com o upload do arquivo Excel, será possível analisar cada um desses padrões de forma estatística.**")
+    uploaded_file = st.file_uploader("Carregue o arquivo Excel", type=["xlsx", "xls"])
     
     if uploaded_file is not None:
         df = pd.read_excel(uploaded_file)
