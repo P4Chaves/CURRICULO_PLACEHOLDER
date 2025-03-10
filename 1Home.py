@@ -63,7 +63,8 @@ elif pages == "Skills":
 
 elif pages == "Análise de Dados":
     st.header("Análise de Dados")
-    st.write("Faça upload do seu arquivo Excel para analisar a distribuição de uma variável numérica.")
+    st.header("Problema: Queda no engajamento no canal do Youtube.")
+    st.write("Faça upload do arquivo Excel para iniciar a análise da distribuição de uma variável numérica.")
     uploaded_file = st.file_uploader("Carregue seu arquivo Excel", type=["xlsx", "xls"])
     
     if uploaded_file is not None:
