@@ -22,9 +22,8 @@ st.sidebar.markdown("Desenvolvido por Pedro Henrique Nardaci Chaves")
 
 if pages == "Quem sou eu?":
     st.image("code.png", width=600)
-    st.header("Quem sou eu?")
+    st.header("**Pedro Henrique Nardaci Chaves - 19 anos**")
     st.write("""
-    - **Pedro Henrique Nardaci Chaves**
     - Aluno da **Faculdade de Informática e Administração Paulista (FIAP)**, atualmente cursando **Engenharia de Software**.
     - Interesse em oportunidades internacionais, com o objetivo de **trabalhar fora do país** e explorar novas experiências profissionais.
     - Especialização em **Back-end**, com conhecimentos em diversas tecnologias.
