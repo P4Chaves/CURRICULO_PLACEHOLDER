@@ -18,31 +18,48 @@ pages = st.sidebar.selectbox("Escolha a sua seção:", [
     "Análise de Dados"
 ])
 
-st.sidebar.markdown("Desenvolvido por [Seu Nome]")
+st.sidebar.markdown("Desenvolvido por Pedro Henrique Nardaci Chaves")
 
 if pages == "Quem sou eu?":
+    st.image("code.png", width=600)
     st.header("Quem sou eu?")
     st.write("""
-    - Seu nome e cargo atual
-    - Sua área de especialização
-    - Objetivos de carreira
+    - **Pedro Henrique Nardaci Chaves**
+    - Aluno da **Faculdade de Informática e Administração Paulista (FIAP)**, atualmente cursando **Engenharia de Software**.
+    - Interesse em oportunidades internacionais, com o objetivo de **trabalhar fora do país** e explorar novas experiências profissionais.
+    - Especialização em **Back-end**, com conhecimentos em diversas tecnologias.
     """)
 
 elif pages == "Formação e Experiências Profissionais":
+    st.image("code.png", width=600)
     st.header("Formação e Experiências Profissionais")
     st.write("""
-    - Sua formação acadêmica (graduação, pós-graduação, certificações)
-    - Experiências profissionais relevantes
-    - Projetos significativos que você participou
-    - Certificados e prêmios profissionais
+    - **Formação Acadêmica:**
+        - Engenharia de Software na **FIAP** (Faculdade de Informática e Administração Paulista).
+    - **Experiência Profissional:**
+        - Ainda sem experiência profissional formal.
+    - **Projetos Acadêmicos:**
+        - Participação na **Global Solutions da FIAP**, desenvolvendo **websites e aplicativos** para empresas reais.
+        - Durante os quatro primeiros semestres, atuei na **criação e apresentação de soluções** para **duas empresas**, aplicando conhecimentos práticos e inovadores.
+    - **Certificados:**
+        - Diversos certificados em **programação** e **soft skills** obtidos através de **Nano-Courses da FIAP** e **Alura**.
     """)
 
 elif pages == "Skills":
+    st.image("code.png", width=600)
     st.header("Skills")
     st.write("""
-    - Linguagens de programação e ferramentas técnicas (ex: Python, SQL, Power BI, etc.)
-    - Soft skills (ex: liderança, comunicação, trabalho em equipe)
-    - Habilidades específicas do setor (ex: machine learning, análise estatística, desenvolvimento web)
+    - **Hard Skills:**
+        - Especialização em **Back-end**
+        - Linguagens de programação: **Python, Java, JavaScript**
+        - Banco de Dados: **MySQL, PostgreSQL**
+        - Ferramentas: **Git, Docker, APIs REST**
+    - **Soft Skills:**
+        - **Comunicativo**, com facilidade para expressar ideias e trabalhar em equipe.
+        - **Bom em equipes**, sabendo colaborar e ouvir diferentes perspectivas.
+        - **Eficiente com tempo**, com boa organização e entrega dentro de prazos.
+    - **Idiomas:**
+        - **Fluente em inglês**, certificado pelo **MET (Michigan English Test)**.
     """)
 
 elif pages == "Análise de Dados":
