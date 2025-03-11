@@ -15,7 +15,11 @@ pages = st.sidebar.selectbox("Escolha a sua seção:", [
     "Análise de Dados"
 ])
  
-st.sidebar.markdown("Desenvolvido por Pedro Henrique Nardaci Chaves")
+st.sidebar.markdown("""Desenvolvido por Pedro Chaves
+
+Github: https://github.com/P4Chaves 
+
+LinkedIn: https://www.linkedin.com/in/pedro-chaves-480056290/""")
  
 if pages == "Quem sou eu?":
     st.image("code.png", width=600)
