@@ -96,10 +96,10 @@ with abas[2]:
     st.header("Skills")
     st.write("""
     - **Hard Skills:**
-        - Especialização em **Back-end**
+        - Adequado para ambos **Front** e **Back-end**
         - Linguagens de programação: **Python, Java, JavaScript**
-        - Banco de Dados: **MySQL, PostgreSQL**
-        - Ferramentas: **Git, Docker, APIs REST**
+        - Banco de Dados: **MySQL**
+        - Ferramentas: **Github**
     - **Soft Skills:**
         - **Comunicativo**, com facilidade para expressar ideias e trabalhar em equipe.
         - **Bom em equipes**, sabendo colaborar e ouvir diferentes perspectivas.
